@@ -2,6 +2,7 @@ num1 = int (input ("Número um: ") )
 num2 = int (input ("Número dois: "))
 num3 = int (input("Número três: "))
 
-if numl > num2 and num3:
-     print("O número três é o maior: ", num3 )
+if num1 > num2 and num1 > num3:
+    print(“o numero 3 é maior”)
+     
 
