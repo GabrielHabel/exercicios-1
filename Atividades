@@ -1,8 +1,29 @@
+Atividade 1
+
 num1 = int (input ("Número um: ") ) 
 num2 = int (input ("Número dois: "))
 num3 = int (input("Número três: "))
 
 if num1 > num2 and num1 > num3:
     print(“o numero 3 é maior”)
-     
+
+
+
+Atividade 2 
+
+Num6 = int(input("Número 6:"))
+Numb8 = int(input("Número 8:"))
+Numb13 = int(input("Número 13:"))
+maior = a
+if numb6 > numb8 and numb8 > numb13:
+    maior = Numb8
+if numb13 > numb6 and numb13 >= numb8:
+    maior = numb13
+menor = numb6
+if numb8 < numb13 and numb8 < numb6:
+    menor = numb8
+if numb13 <= numb8 and numb13 < numb6:
+    menor = c
+print(f"O menor número digitado foi {numb6}")
+print(f"O maior número digitado foi {numb13}")
 
