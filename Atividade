@@ -1,1 +1,31 @@
+Algoritmo "ParOuImpar"
+
+var n = prompt("Digite um numero");
+var total=n/2;
+if(n/2=0){
+    print("Par");
+}
+if(n/2=1){
+    print("Impar");
+}
+print(total);
+
+Atividade 2  
+
+
+alfa = input("Informe uma letra ou consoante:")
+
+if alfa == "a":
+    print("Vogal")
+elif alfa == "e":
+    print("Vogal")
+elif alfa == "i":
+    print("Vogal")
+elif alfa == "o":
+    print("Vogal")
+elif alfa == "u":
+    print("Vogal")
+elif alfa == "G":
+    print("Consoante")
+
 
