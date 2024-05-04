@@ -27,3 +27,54 @@ if numb13 <= numb8 and numb13 < numb6:
 print(f"O menor número digitado foi {numb6}")
 print(f"O maior número digitado foi {numb13}")
 
+
+Atividade 3 
+
+    a = float(input('Primeiro lado: '))
+    b = float(input('Segundo  lado: '))
+    c = float(input('Terceiro lado: '))
+    
+    # Testando se é triângulo
+    if (a + b < c) or (a + c < b) or (b + c < a):
+        print('Nao é um triangulo')
+    elif (a == b) and (a == c) :
+        print('Equilatero')
+    elif (a==b) or (a==c) or (b==c):
+        print('Isósceles')
+    else:
+        print('Escaleno')
+
+
+Atividade 4 
+
+
+import math
+    
+    print('Equaçao do 2o grau da forma: ax² + bx + c')
+    
+    a = int( input('Coeficiente a: ') )
+
+    if(a==0):
+        print('Se a=0, não é equação do segundo grau. Tchau')
+    else:
+        b = int( input('Coeficiente b: ') )
+        c = int( input('Coeficiente c: ') )
+        delta = b*b - (4*a*c)
+
+        if delta<0:
+            print('Delta menor que 0. Raízes imaginárias. Tchau')
+        elif delta==0:
+            raiz = -b / (2*a)
+            print('Delta=0 , raiz = ',raiz)
+        else:
+            raiz1 = (-b + math.sqrt(delta) ) / (2*a)
+            raiz2 = (-b - math.sqrt(delta) ) / (2*a)
+            print('Raizes: ',raiz1,' e ',raiz2)
+
+Atividade 5 
+
+C = float(input("Digite a temperatura em °C:"))
+F = (9 * C / 5) + 32
+print("%5.2f°C é igual a %5.2f°F" % (C, F))
+
+
