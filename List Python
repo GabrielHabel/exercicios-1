@@ -7,4 +7,9 @@ while i < len(vetorList):
     print(vetorList[i])
     i = i + 1
 
+2 questao 
 
+if __name__ == "__main__":
+   lista = [5, 10, 15, 20, 25, 30, 35, 40]
+   print(f"Lista original: {lista}")
+   print(f"Lista invertida: {inverter_lista(lista)}")
