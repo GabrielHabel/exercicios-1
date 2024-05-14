@@ -24,5 +24,34 @@ m1=float(input(“Digite sua 1 nota: “))
   media= (m1+m2+m3+m4)/4
   print(“A sua média é: “,media)
 
-4 questao 
+5 questao 
+
+NUMEROS = 20
+inteiros = []
+pares = []
+impares = []
+
+for i in range(NUMEROS):
+    numero = int(input("Digite um inteiro: "))
+    inteiros.append(numero)
+    if numero % 2 == 0:
+        pares.append(numero)
+    else:
+        impares.append(numero)
+
+
+print("\nInteiros")
+for numero in inteiros:
+    print(f"{numero}", end=" ")
+
+print("\nPares")
+for numero in pares:
+    print(f"{numero}", end=" ")
+
+print("\nImpares")
+for numero in impares:
+    print(f"{numero}", end=" ")
+
+
+
 
